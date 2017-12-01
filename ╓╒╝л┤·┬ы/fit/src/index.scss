@@ -1,0 +1,171 @@
+html {
+  /*
+   使用postcss-pxtorem时，默认浏览器的font-size: 16px，不允许设置
+   并且html默认为即 1rem ===16px
+   所以要想让其他元素变大，需要将html的font-size放大
+   80px
+  font-size: 5rem;
+   */
+  font-size: 1rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+  position: relative;
+}
+
+i {
+  font-style: normal;
+}
+
+.clearfix::after {
+  content: "";
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+/*设置弹出对话框的 ios, android平台的不同样式*/
+.am-modal {
+  width: 16rem !important;
+}
+
+.am-modal-header {
+  padding-top: 1rem;
+}
+
+.am-modal-title {
+  font-size: 1rem;
+}
+
+.am-modal-body {
+  font-size: 1rem;
+}
+
+.am-modal-button-group-h .am-modal-button {
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.am-modal.am-modal-android {
+  top: -2rem;
+  border: 1px solid #fff;
+  border-radius: 0.4rem;
+}
+
+.am-modal.am-modal-android .am-modal-content {
+  border-radius: 0.3rem;
+}
+
+.am-modal.am-modal-android .am-modal-content .am-modal-body {
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(136,136,136);
+}
+
+.am-modal.am-modal-android .am-modal-content .am-modal-header .am-modal-title {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.am-modal.am-modal-android .am-modal-content .am-modal-footer .am-modal-button-group-h .am-modal-button {
+  height: 2rem;
+}
+
+.am-modal.am-modal-android .am-modal-content .am-modal-footer .am-modal-button-group-h {
+  justify-content: center;
+}
+
+.am-modal.am-modal-android .am-modal-content .am-modal-footer .am-modal-button-group-h .am-modal-button {
+  flex: 1;
+}
+
+.load-img {
+  img {
+    width: 100%;
+    height: 10rem;
+    background: url("http://orkwtps3q.bkt.clouddn.com/image/load/loading.gif");
+    background-size: 100% 100%;
+    background-color: #fff;
+  }
+}
+
+.load_action_img {
+  .img {
+    width: 8rem;
+    height: 5rem;
+    background: #7bbefa url("http://orkwtps3q.bkt.clouddn.com/image/load/loading.gif");
+    background-size: 100% 100%;
+    background-color: rgb(141, 212, 129);
+  }
+}
+
+.small_font {
+  font-size: 1rem;
+  transform-origin: 0 center;
+  transform: scale(0.6);
+}
+
+#overmask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 10;
+  display: none;
+}
+
+.item {
+  font-size: 0.8rem;
+  height: 3rem;
+  line-height: 3rem;
+  position: relative;
+
+  .am-icon-lg {
+    color: gray;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -0.75rem;
+  }
+}
+
+.am-toast.am-toast-mask{
+  display: block;
+
+  .am-toast-notice {
+    max-width: 100%;
+  }
+
+  >span{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate3d(-50%,0,0);
+  }
+}
+
+
+.am-toast-notice-content .am-toast-text {
+  border-radius: .2rem;
+  padding: .3rem .8rem;
+}
+
+.begin_train_btn {
+  height: 3rem;
+  line-height: 3rem;
+  background: #24c789;
+  text-align: center;
+  color: #fff;
+}

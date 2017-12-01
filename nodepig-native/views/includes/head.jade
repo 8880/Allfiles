@@ -1,0 +1,21 @@
+//主页的头部
+div.container-fluid
+  nav#head
+    a#flying.haed_a(href = '/main',) Flying
+    if(name)
+      a.haed_a(href = '/usermain')#login #{name}
+    else
+      a.haed_a(href = '/login/?type=1')#login 未登陆
+    a.haed_a(href = '/login/?type=0') 免费注册
+    a#order.haed_a 我的订单
+    a#employers.haed_a 我是雇主
+  div#head_trans
+    input.tran(id = 'translation')
+    button.button.button-primary.button-pill.button-small(id = 'tran_ok') 搜索
+  ul#eml
+    li.shy.head_l 我的足迹
+    li.shy.head_l 我的收藏
+
+  ul#ord
+    li.gaze.head_l 正在路上
+    li.gaze.head_l 已完成

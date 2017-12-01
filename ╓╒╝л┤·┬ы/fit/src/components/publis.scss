@@ -1,0 +1,62 @@
+
+.publish-head {
+  height: 2rem;
+  padding: 1rem 1.5rem;
+  background: #584f60;
+  text-align: center;
+  font-size: 1rem;
+  display: flex;
+
+  img {
+    float: left;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  button {
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #d3d7d4;
+  }
+
+  p {
+    flex: 1;
+    margin: 0;
+    height: 2rem;
+    line-height: 2rem;
+    color: #fff;
+  }
+
+}
+
+
+.publish-content {
+  .publish-content-text {
+    min-height: 5rem;
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .am-image-picker-list .am-image-picker-upload-btn:after {
+    width: 2.5rem;
+    height: 0.3rem;
+    background: #ddd;
+  }
+
+  .am-image-picker-list  .am-image-picker-upload-btn:before {
+    width: 0.3rem;
+    height: 2.5rem;
+    background: #ddd;
+  }
+
+  .am-image-picker-list .am-image-picker-item .am-image-picker-item-remove {
+    width: 1rem;
+    height: 1rem;
+    background-size: 1rem auto;
+  }
+}

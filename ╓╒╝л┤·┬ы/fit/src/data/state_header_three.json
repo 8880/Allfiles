@@ -1,0 +1,44 @@
+{
+  "sameCity": [
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"尼古拉斯",
+      "timeAgo":1,
+      "city": "北京",
+      "imgSrc": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "content": "器械训练，汗流浃背"
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"尼古拉斯",
+      "timeAgo":10,
+      "city": "北京",
+      "imgSrc": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "content": "器械训练，汗流浃背"
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"尼古拉斯",
+      "timeAgo":188,
+      "city": "北京",
+      "imgSrc": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "content": "器械训练，汗流浃背"
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"尼古拉斯",
+      "timeAgo":3888,
+      "city": "北京",
+      "imgSrc": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "content": "器械训练，汗流浃背"
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"尼古拉斯",
+      "timeAgo":52,
+      "city": "北京",
+      "imgSrc": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "content": "器械训练，汗流浃背"
+    }
+  ]
+}

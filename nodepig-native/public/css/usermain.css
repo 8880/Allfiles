@@ -1,0 +1,208 @@
+/**
+头部
+**/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../images/background.jpeg);
+}
+
+
+#eml{
+  position: relative;
+  display: none;
+  left: 1010px;
+}
+#ord{
+  position: relative;
+  display: none;
+  left: 800px;
+}
+
+ul{
+  position: absolute;
+  list-style: none;
+}
+
+#head{
+  background-image: url(../images/head.jpg);
+  padding-top: 65px;
+}
+
+#head_trans{
+  background-color: #2B2B2B;
+  border-style: solid;
+  border-color: #CAE1FF;
+  width: 400px;
+  border-width: 2px;
+  position: absolute;
+  left: 1320px;
+  top: 86px;
+  height: 35px;
+}
+
+#tran_ok{
+  position: relative;
+  bottom: 29.7px;
+  left: 314px;
+}
+
+.tran{
+  height: 31px;
+  width: 315px;
+  border-width: 0px;
+  border-style: none;
+}
+
+a.haed_a{
+  color: #F8F8FF;
+  padding-left: 150px;
+}
+
+a{
+  text-decoration: none;
+  color: #F8F8FF;
+}
+
+#flying{
+  font-size: 40px;
+}
+
+.head_l{
+  margin-top: 20px;
+  height: 15px;
+  line-height: 15px;
+  background-position:left 15%;
+  padding-left: 18px;
+  /*background-image: url(../images/shy.jpg);*/
+  background-repeat: no-repeat;
+}
+
+.shy{
+  background-image: url(../images/shy.jpg);
+}
+
+.gaze{
+  background-image: url(../images/gaze.png);
+}
+/**
+个人仓库
+**/
+#warehouse{
+  border: 1px solid red;
+  width: 1000px;
+  height: 750px;
+  margin-left: 150px;
+  float: left;
+  margin-top: 30px;
+}
+
+.ware_img{
+  width: 300px;
+  height: 200px;
+}
+
+.ware_btn{
+  margin-left: 50px;
+}
+
+/**
+个人信息
+**/
+
+#userinfo{
+  border: 2px solid #383838;
+  width: 500px;
+  height: 500px;
+  margin-left: 1222px;
+  margin-top: 30px;
+}
+
+
+div.head img{
+  float: right;
+  position: relative;
+  bottom: 51px;
+  display: inline-block;
+}
+
+.usename{
+  /*font-size: 30px;*/
+  color: #030303;
+  /*padding: 30px;*/
+}
+
+.signature{
+  font-size: 25px;
+  color: #2B2B2B;
+}
+
+.tag{
+  margin-top: 50px;
+}
+
+.tag p{
+  color: #0A0A0A;
+}
+
+.tag strong{
+  padding-left: 30px;
+  color: #EE4000;
+}
+
+#history{
+  width: 500px;
+  height: 100px;
+  border: 2px;
+  color: #0A0A0A;
+}
+
+#history p{
+  color: #8B0A50;
+}
+
+#history td{
+  text-align: center;
+}
+
+.add button{
+  font-size: 20px;
+  width: 130px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border: 0px;
+}
+.add #change{
+  background-color: #C9C9C9;
+}
+.add #go{
+  background-color: #48D1CC;
+}
+.add #add{
+  background-color: #8B5A00;
+}
+
+/**
+个人信息中广告
+**/
+#other{
+  position: absolute;
+  /*border: 1px solid #FFFFFF;*/
+  width: 500px;
+  height: 200px;
+  bottom: 50px;
+}
+
+#other img{
+  width: 500px;
+  height: 200px;
+}
+
+
+/**
+dialog的使用
+**/

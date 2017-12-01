@@ -1,0 +1,59 @@
+
+.hot {
+  position: relative;
+  height: 12rem;
+
+  img {
+    width: 100%;
+    height: 12rem;
+
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+  }
+
+  p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 2.5rem;
+    color: #fff;
+    font-weight: bolder;
+  }
+
+  .title-1 {
+    top: 1rem;
+  }
+
+  .title-2 {
+    top: 3rem;
+    letter-spacing: 1rem;
+  }
+
+  .play-button {
+    width: 2rem;
+    height: 2rem;
+    background: url("http://orkwtps3q.bkt.clouddn.com/image/png/playVideo.png");
+    background-size: 2rem 2rem;
+    top: 50%;
+    left: 50%;
+    margin-top: -0.3rem;
+    margin-left: -1rem;
+  }
+}
+
+
+.show {
+  padding: 0.5rem 0.5rem;
+}
+
+.show > div {
+  width: 48%;
+  float: left;
+  padding-right: 4%;
+  padding-bottom: 0.2rem;
+}
+
+.show >div:nth-child(2n){
+  padding-right: 0;
+}

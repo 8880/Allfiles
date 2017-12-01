@@ -1,0 +1,13 @@
+.am-modal.am-modal-operation .am-modal-content  {
+  padding: 1rem;
+}
+
+.am-modal-button-group-v .am-modal-button{
+  font-size: 1rem;
+  border-top: none;
+}
+
+
+.am-modal.am-modal-android .am-modal-content .am-modal-footer .am-modal-button-group-v{
+  justify-content: flex-start;
+}

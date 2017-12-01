@@ -1,0 +1,25 @@
+{
+  "name": "flying",
+  "version": "1.0.0",
+  "description": "This is my frist app;",
+  "main": "index.js",
+  "scripts": {
+    "test": "one"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jade": "^1.11.0",
+    "koa": "^2.0.1",
+    "koa-bodyparser": "^3.2.0",
+    "koa-router": "^7.0.0",
+    "mysql": "^2.14.1"
+  },
+  "devDependencies": {
+    "koa-mount": "^3.0.0",
+    "koa-static": "^4.0.1",
+    "koa-views": "^5.2.1",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.1.0-alpha.34"
+  }
+}

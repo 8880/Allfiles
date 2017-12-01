@@ -1,0 +1,73 @@
+.hot_video_item {
+  padding-bottom: 1rem;
+
+  .hot_video_src {
+    width: 100%;
+    height: 20rem;
+    position: relative;
+
+    video {
+      width: 100%;
+      height: 20rem;
+      background: #000;
+      object-fit: fill;
+    }
+
+    .video_icon {
+      position: absolute;
+      top: 50%;
+      margin-top: -1.5rem;
+      left: 0;
+      width: 100%;
+      height: 3rem;
+      text-align: center;
+
+      img {
+        width: 3rem;
+        height: 3rem;
+      }
+    }
+  }
+
+  .share {
+    padding: 1rem;
+  }
+
+  .desc {
+    padding: 1rem;
+    margin: 0;
+    font-size: .75rem; /* 12/16 */
+    line-height: .88rem; /* 14/16 */
+    max-height: 4.38rem; /* 70/16 */
+    overflow: hidden;
+  }
+
+  .show_all {
+    margin-top: 1rem;
+  }
+
+  .show_all a{
+    font-size: 12px;
+    padding: 0.3rem 1rem;
+    color: rgb(88,79,96);
+  }
+
+  .jiayou {
+    padding: 0.7rem;
+    font-size: 0.7rem;
+
+    >img {
+      width: 2rem;
+      height: 2rem;
+      vertical-align: middle;
+    }
+
+    .comment {
+      padding: 0.5rem 0;
+      a {
+        color: #363636;
+      }
+    }
+  }
+
+}

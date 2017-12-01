@@ -1,0 +1,14 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after,
+.clearfix::before{
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}

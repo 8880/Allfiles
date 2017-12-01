@@ -1,0 +1,43 @@
+//个人信息
+div#userinfo
+  div.head
+    if(userinfo)
+      h3#usename.username #{userinfo.username}
+    else
+      h3#usename.username 未登陆
+    if(signatrue)
+      strong.signature #{signature}
+    else
+      strong.signature 一只单身狗,什么也没有...
+    img.img-circle(src = '../images/default.jpg')
+  div.tag
+    p 标签:
+    nav
+      strong IT
+      strong app
+      strong H5
+      strong web
+      strong 服务器
+
+  div.add
+    button#change 修改个人信息
+    if(shopinfo)
+      button#go 倒闭
+    else
+      button#go 开店
+    button#add 上架
+
+  table#history
+    caption
+      p(align = 'center') 最近交易
+    tr
+      td 交易方
+      td 时间
+      td 金额
+    tr
+      td ad
+      td 2017-6-1
+      td 1000
+
+  div#other
+    img(src = '../images/money1.jpg')

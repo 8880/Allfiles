@@ -1,0 +1,38 @@
+doctype html
+html
+  meta(charset='utf-8')
+  link(rel='stylesheet', type='text/css', href = '/css/bootstrap-3.3.7-dist/css/bootstrap.min.css')
+  link(rel='stylesheet', type='text/css', href = '/css/buttons.css')
+  link(rel='stylesheet', type='text/css', href = '/css/register.css')
+  head
+    script(src = '/js/jquery/jquery.js')
+    script(src = '/css/bootstrap-3.3.7-dist/js/bootstrap.min.js')
+    script(src = '/js/register.js')
+    title= title
+    div#content
+      img#background(src = '../images/register.jpg')
+      div#reg
+        if(type == 1)
+          div#loginform
+              input#is_type(value = 'login', name = 'type')
+              p
+              input(id = 'user', placeholder = 'username:', type = 'text')
+              p
+              p
+              input(id = 'pwd', placeholder = 'password:', type = 'text')
+              p
+              input(value = '登陆', type = 'button', id = 'login', onclick = 'isLogin1()')
+        else
+          form.form-horizontal(action = '/main', method = 'post')
+            input#is_type(value = 'register', name = 'type')
+            input.input-xlarge.search-query(type = 'text', placeholder = "username", id = 'username', name = 'user')
+            p
+            input.input-xlarge.search-query(type = 'password', placeholder = "password", id = 'password', name = 'pwd')
+            p
+            input.input-xlarge.search-query(type = 'password', placeholder = "agin", id = 'agin')
+            p
+            input.input-xlarge.search-query(type = 'email', placeholder = "email", id = 'email', name = 'email')
+            p
+            input.input-xlarge.search-query(type = 'number', placeholder = "phone", id = 'phone', name = 'phone')
+            p
+            button.input-xlarge.search-query(type = 'submit', id = 'ok') 注册

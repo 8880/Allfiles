@@ -1,0 +1,23 @@
+//usermain中的dialog
+
+//对商品的上架
+div#loginmodal(title = '上架')
+  input(value = '商品名称', name = 'merName', type = 'text', id = 'mer_name')
+  textarea(name = 'mer', type = 'text', rows = '4', value = '商品描述', id = 'mer')
+  input(type = 'file', value = '选择图片', id = 'mer_img')
+  input(type = 'file', value = '上传说明文档', id = 'met_file')
+  //button#upload.button.button-primary.button-rounded.button-small 确定
+
+//修改个人信息
+
+div#changeuserinfo(title = '修改个人信息')
+  input(value = '', name = 'merUserName', type = 'text', id = 'changeName')
+  input(value = 'pwd:', name = 'merUserPwd', type = 'text', id = 'changePwd')
+  textarea(name = 'change_pwd', type = 'text', rows = '4', value = '个性签名', id = 'changeMer')
+
+
+//开店--
+
+div#openShop(title = '店铺信息')
+  input(value = '店铺名称', name = 'shopName', type = 'text', id = 'shopName')
+  textarea(name = 'shopMer', type = 'text', rows = '4', value = '店铺描述', id = 'shopMer')

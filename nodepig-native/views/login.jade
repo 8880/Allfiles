@@ -1,0 +1,20 @@
+doctype html
+html
+  meta(charset = 'utf-8')
+  title Flying
+  boby
+  if(type == 1)
+    form(action = '/register')
+      input(value = 'login', name = 'type', display = 'none')
+      label
+        |Username:
+        p
+        input(name = 'username', type = 'text')
+        p
+      label
+        |Password:
+        p
+        input(name = 'password', type = 'text')
+      p
+      input(value = 'submit', type = 'submit')
+  else

@@ -1,0 +1,97 @@
+{
+  "train": [{
+      "id": 1,
+      "title": "深蹲入门",
+      "type": "无器械",
+      "time": 21,
+      "nandu": "K2",
+      "ranzhi": 41,
+      "desc":"从最简单的动作开始，一步步学会深蹲的正确姿势。",
+      "image":"http://orkwtps3q.bkt.clouddn.com/video/train/1/1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "腹肌撕裂",
+      "type": "无器械",
+      "time": 10,
+      "nandu": "K2",
+      "ranzhi": 45,
+      "desc":"进阶难度的腹肌撕裂训练课程，男生的六块腹肌，女生的马甲线都让你有！",
+      "image":"http://orkwtps3q.bkt.clouddn.com/video/train/2/1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "俯卧撑入门",
+      "type": "有器械",
+      "time": 17,
+      "nandu": "K3",
+      "ranzhi": 40,
+      "desc":"13 分钟学会俯卧撑的发力技巧",
+      "image":"http://orkwtps3q.bkt.clouddn.com/video/train/3/1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "徒手胸肌训练",
+      "type": "无器械",
+      "time": 29,
+      "nandu": "K3",
+      "ranzhi": 50,
+      "desc":"男生专属变式俯卧撑训练，在家也能练出钢铁般的胸肌。适合能做 25~40 个俯卧撑的男生训练。",
+      "image":"http://orkwtps3q.bkt.clouddn.com/video/train/4/1.jpg"
+    },{
+      "id": 5,
+      "title": "上肢热身",
+      "type": "无器械",
+      "time": 29,
+      "nandu": "K3",
+      "ranzhi": 50,
+      "desc":"练前热身能唤醒你的身体，让你在接下来的训练里火力全开。日常生活和训练时的身体状态有很大区别，体内的血液分布并不相同。贸然运动会影响到训练的效果。热身可以让血液流向肌肉，提升肌肉温度和延展性，降低肌肉的粘滞性。让身体为接下来的正式训练做好充分的准备。",
+      "image":"http://orkwtps3q.bkt.clouddn.com/video/train/5/1.jpg"
+    },{
+      "id": 6,
+      "title": "哑铃胸肌训练",
+      "type": "有器械",
+      "time": 11,
+      "nandu": "K1",
+      "ranzhi": 50,
+      "desc":"只要一副哑铃就可以充分锻炼肱二头肌、肱三头肌，练出线条紧实的手臂。",
+      "image":"http://orkwtps3q.bkt.clouddn.com/video/train/6/1.jpg"
+    },{
+      "id": 7,
+      "title": "预热激活跑",
+      "type": "无器械",
+      "time": 11,
+      "nandu": "K1",
+      "ranzhi": 50,
+      "desc":"适合跑步初学者或很久没跑步的健身爱好者，重新激活你的跑步能力。本课程通过低强度的走跑交替适应性训练，让你的身体能够更快、更轻松的适应户外跑步，体会跑步的乐趣。",
+      "image":"http://orkwtps3q.bkt.clouddn.com/video/train/7/1.jpg"
+    },{
+      "id": 8,
+      "title": "分段跑 · 初级燃脂",
+      "type": "无器械",
+      "time": 11,
+      "nandu": "K1",
+      "ranzhi": 50,
+      "desc":"针对初学跑步人群的户外跑步课程，由慢走、慢跑和快跑组合循环，通过短距离的交替跑步不断刺激心率，提高有氧训练的能力，增加燃脂的效率。降低长距离跑步的障碍，为能够持续固定距离或时间的跑步打下基础。",
+      "image":"http://orkwtps3q.bkt.clouddn.com/video/train/8/1.jpg"
+    },{
+      "id": 9,
+      "title": "分段跑 · 进阶燃脂",
+      "type": "无器械",
+      "time": 11,
+      "nandu": "K3",
+      "ranzhi": 50,
+      "desc":"针对维持在瓶颈期、有跑量积累的减脂人群，由慢跑和快跑组合循环，大强度地刺激心率，提高燃脂效率，增加最大摄氧量，让有氧能力提升到新的阶段。",
+      "image":"http://orkwtps3q.bkt.clouddn.com/video/train/9/1.jpg"
+    },{
+      "id": 10,
+      "title": "分段跑 · HIIT强化燃脂",
+      "type": "无器械",
+      "time": 11,
+      "nandu": "K4",
+      "ranzhi": 50,
+      "desc":"针对经常跑步但是减脂效果不佳的人群，由 800 米、400 米快跑和慢跑组合循环，大强度地刺激心率，提高燃脂效率，增加最大摄氧量。",
+      "image":"http://orkwtps3q.bkt.clouddn.com/video/train/10/1.jpg"
+    }
+  ]
+}

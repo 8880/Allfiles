@@ -1,0 +1,54 @@
+.find_header_three {
+  padding-bottom: 3rem;
+
+  .classify {
+    .am-flexbox .am-flexbox-item {
+      a {
+        box-sizing: border-box;
+        padding: 0.3rem;
+      }
+    }
+
+    .classify_link {
+      display: inline-block;
+      background: #24c789;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+    }
+  }
+
+  .course_link {
+    color: #fff;
+    text-align: center;
+    margin-right: 0.3rem;
+    font-size: 0.5rem;
+    width: 16rem;
+    height: 8rem;
+    float: left;
+    position: relative;
+
+    p:nth-of-type(1) {
+      margin: 0;
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      font-size: 1rem;
+    }
+
+    p:nth-of-type(2) {
+      margin: 0;
+      position: absolute;
+      top: 2.5rem;
+      left: 1rem;
+    }
+
+    p:nth-of-type(3) {
+      margin: 0;
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem;
+      font-size: 0.8rem;
+    }
+  }
+}

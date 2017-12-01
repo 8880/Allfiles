@@ -1,0 +1,29 @@
+#reg{
+  position: absolute;
+  left: 1450px;
+  top: 300px;
+}
+
+#background{
+  width: 100%;
+  height: 951px;
+}
+
+#ok{
+  width: 230px;
+  background-color: #8B6914;
+  border-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#is_type{
+  display: none;
+}
+
+input{
+  background-color: #CDAA7D;
+  margin-top: 20px;
+  border-style: none;
+  width: 230px;
+}

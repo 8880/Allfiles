@@ -1,0 +1,30 @@
+.train_header_one {
+  padding-bottom: 3rem;
+
+  .my-carousel {
+    .am-carousel-wrap-dot > span {
+      // width: 0.5rem;
+      // height: 0.5rem;
+      // margin: 0.25rem 0.2rem;
+    }
+  }
+
+  .my-list {
+    .am-list-item.am-list-item-middle .am-list-line {
+      padding: 0.7rem;
+    }
+
+    .am-list-item .am-list-line .am-list-content {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .am-list-item .am-list-line .am-list-extra {
+      font-size: 0.8rem;
+      margin-top: -1.2rem;
+    }
+  }
+
+
+
+}

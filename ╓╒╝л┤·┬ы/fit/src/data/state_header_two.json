@@ -1,0 +1,79 @@
+{
+  "follow":[
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"尼古拉斯",
+      "lastStateTime":"2017-06-01 12:30",
+      "lastStateText":"不休息，有点累",
+      "lastClass":"深蹲入门",
+      "lastClassNumber": 10
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"你二哥",
+      "lastStateTime":"2017-06-01 12:30",
+      "lastStateText":"一二三，加把劲!",
+      "lastClass":"徒手胸肌训练",
+      "lastClassNumber": 10
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"fit man",
+      "lastStateTime":"2017-06-01 12:30",
+      "lastStateText":"康忙北鼻",
+      "lastClass":"腹肌撕裂",
+      "lastClassNumber": 10
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"他二姐",
+      "lastStateTime":"2017-06-01 12:30",
+      "lastStateText":"康忙北鼻",
+      "lastClass":"腹肌撕裂",
+      "lastClassNumber": 10
+    }
+  ],
+
+  "recommand": [
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"fitness-mo"
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"美丽俏"
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"嚯嚯嚯"
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"Millet"
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"呵呵"
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"呵呵"
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"呵呵"
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"呵呵"
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"呵呵"
+    },
+    {
+      "headImg": "http://orkwtps3q.bkt.clouddn.com/image/jpg/show.jpg",
+      "nickName":"呵呵"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+/**
+主体头部
+**/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../images/background.jpeg);
+}
+
+
+#eml{
+  position: relative;
+  display: none;
+  left: 1010px;
+}
+#ord{
+  position: relative;
+  display: none;
+  left: 800px;
+}
+
+ul{
+  position: absolute;
+  list-style: none;
+}
+
+#head{
+  background-image: url(../images/head.jpg);
+  padding-top: 65px;
+}
+
+#head_trans{
+  background-color: #2B2B2B;
+  border-style: solid;
+  border-color: #CAE1FF;
+  width: 400px;
+  border-width: 2px;
+  position: absolute;
+  left: 1320px;
+  top: 78px;
+}
+
+.tran{
+  height: 29.7px;
+  width: 315px;
+  border-width: 0px;
+  border-style: none;
+}
+
+a.haed_a{
+  color: #F8F8FF;
+  padding-left: 150px;
+}
+
+a{
+  text-decoration: none;
+  color: #F8F8FF;
+}
+
+#flying{
+  font-size: 40px;
+}
+
+.head_l{
+  margin-top: 20px;
+  height: 15px;
+  line-height: 15px;
+  background-position:left 15%;
+  padding-left: 18px;
+  /*background-image: url(../images/shy.jpg);*/
+  background-repeat: no-repeat;
+}
+
+.shy{
+  background-image: url(../images/shy.jpg);
+}
+
+.gaze{
+  background-image: url(../images/gaze.png);
+}
+
+/**
+广告部分
+**/
+#adver{
+  margin-top: 20px;
+  width: 100px;
+  height: 423px;
+}
+
+img{
+  width: 250px;
+  height: 200px;
+}
+
+#ad_left{
+  width: 400px;
+  position: absolute;
+  left: 150px;
+}
+
+#ad_left_ul{
+  background-color: #2B2B2B;
+}
+
+div a.adv{
+  padding-left: 20px;
+}
+
+div li.adv_lv{
+  padding-top: 20px;
+}
+
+div ul p {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#ad_right_rig{
+  margin-left: 1094px;
+}
+
+#ad_tow img{
+  position: relative;
+  left: 250px;
+  bottom: 442px;
+  height: 434px;
+}
+
+#woqu{
+  position: relative;
+  bottom: 4px;
+}
+
+
+.img_size{
+  width: 380px;
+  height: 217px;
+}
+
+#ad_right_mid{
+  position: absolute;
+  margin-left: 334px;
+  /*margin-top: 234px;*/
+}
+
+
+/**
+轮播图
+**/
+#ad_right_mid img{
+  width: 760px;
+  height: 434px;
+}
+
+
+/**
+middle中间部分
+**/
+#middle{
+  width: 1574px;
+  margin: auto;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+div.sprite{
+  width: 50px;
+  height: 50px;
+}
+
+#splite_table{
+  /*height: 200px;*/
+  width: 183px;
+  height: 160px;
+  padding: 0px;
+  margin-top: 15px;
+  float: left;
+}
+
+#splite_table p{
+  padding-left: 10px;
+}
+
+#spr_1{
+  background: url(../images/splite.png) -17px -25px;
+}
+
+#spr_2{
+  background: url(../images/splite.png) -120px -25px;
+}
+
+#spr_3{
+  background: url(../images/splite.png) -225px -28px;
+}
+
+#spr_4{
+  background: url(../images/splite.png) -17px -122px;
+}
+
+#spr_5{
+  background: url(../images/splite.png) -123px -121px;
+}
+
+#spr_6{
+  background: url(../images/splite.png) -223px -120px;
+}
+
+/**
+中间的后会推荐部分
+**/
+#remc{
+  margin-left: 150px;
+}
+
+div.recommend ul{
+  list-style: none;
+  margin: 0px;
+  padding-left: 50px;
+}
+
+div.recommend ul li{
+  float: left;
+}
+
+div.recommend ul img{
+  width: 200px;
+  height: 160px;
+  padding-left: 70px;
+}
+
+/**
+中间的主要内容
+**/
+
+
+#other_type{
+  width: 1574px;
+  /*border: 1px solid #23ac38;*/
+  height: 700px;
+  margin-top: 200px;
+  margin-left: 150px;
+}
+
+
+.other{
+  /*width: 1574px;
+  height: 300px;
+  border: 1px solid red;*/
+  /*margin-top: 30px;*/
+}
+
+.other_w_h{
+  width: 700px;
+  height: 300px;
+  float: left;
+  margin-left: 56px;
+  padding-left: 700px;
+  margin-top: 30px;
+  /*border: 1px solid #23ac38;*/
+}
+
+#middel_main_tow{
+  margin-top: 100px;
+  margin-left: -758px;
+}
+
+#middel_main_four{
+  position: absolute;;
+  top: 1216px;
+  left: 950px;
+}
+
+#middel_main_three{
+  margin-left: 102px;
+}
+
+/*#middle_four_ul{
+  margin-top: 663px;
+}*/
+
+div.other_one{
+  margin-left: -700px;
+}
+
+.other_long_img{
+  height: 300px;
+}
+.other_small_img{
+  height: 100px;
+}
+
+
+.middle_table{
+  padding-left: 270px;
+}
+
+
+/**
+底部
+**/
+#bottom{
+  background-image: url(../images/button.background.jpg);
+  height: 100px;
+  margin-top: 200px;
+}
+
+#button_nav{
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 570px;
+}
+
+.buttom_a{
+  padding-left: 100px;
+  color: #8e8ede;
+  height: 30px;
+}
+
+#myself{
+  position: fixed;
+  right: 50px;
+  top: 700px;
+  height: 50px;
+  width: 50px;
+}
+/**
+中间的间隔
+**/
+.interval{
+  position: absolute;
+  top: 740px;
+  left: 650px;
+  display: inline;
+  padding: 0 50px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #F5F5F5;
+  font-family: fzzhengheis-el-gbregular;
+}

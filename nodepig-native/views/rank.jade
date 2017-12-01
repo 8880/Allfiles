@@ -1,0 +1,19 @@
+doctype
+html
+  meta(charset = 'utf-8')
+  link(rel='stylesheet', type='text/css', href = '/css/main.css')
+  link(rel='stylesheet', type='text/css', href = '/css/rank.css')
+  link(rel='stylesheet', type='text/css', href = '/css/buttons.css')
+  head
+  title 排行
+  script(src = '/js/jquery/jquery.js')
+  script(src = '/js/head.js')
+  body
+    include includes/head
+    table#main_table(border="1"  cellpadding="20" cellspacing="0")
+      thead
+        th(align = 'center') 店名
+        th 交易量
+        th 店长
+        th 信用度
+      tbody

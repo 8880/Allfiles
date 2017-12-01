@@ -1,0 +1,9 @@
+#main_table {
+  margin-left: 147px;
+  width: 1579px;
+  height: 800px;
+}
+
+#main_table td {
+  height: 40px;
+}

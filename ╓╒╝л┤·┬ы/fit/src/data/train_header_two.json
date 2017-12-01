@@ -1,0 +1,53 @@
+{
+  "runWays": [
+    {
+      "name": "交通学院南校区田径场",
+      "long": 0.5,
+      "distance": 1.3,
+      "members": 25
+    },
+    {
+      "name": "华南农业大学田径场",
+      "long": 0.5,
+      "distance": 3.3,
+      "members": 15
+    },
+    {
+      "name": "南方医科大学田径场",
+      "long": 0.4,
+      "distance": 4.3,
+      "members": 63
+      },{
+        "name": "大学田径场",
+        "long": 0.4,
+        "distance": 4.3,
+        "members": 63
+      }
+  ],
+  "runTrains": [
+    {
+      "id":7,
+      "name":"预热激活跑",
+      "members": 15578,
+      "time": 27
+    },
+    {
+      "id":8,
+      "name":"分段.初级燃脂跑",
+      "members": 1598,
+      "time": 25
+    },
+    {
+      "id":9,
+      "name":"分段.进阶燃脂跑",
+      "members": 1598,
+      "time": 23
+    },
+    {
+      "id":10,
+      "name":"分段.强化燃脂跑",
+      "members": 451598,
+      "time": 25
+    }
+  ]
+}

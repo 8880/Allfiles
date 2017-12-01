@@ -1,0 +1,52 @@
+
+.recommand_user {
+  width: 6rem;
+  height: 7rem;
+  padding: 1.5rem 1rem;
+  position: relative;
+  text-align: center;
+  font-size: 0.6rem;
+  float: left;
+  border: 1px solid #ddd;
+  margin-right: 0.4rem;
+
+  >img {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .head_img {
+    height: 2rem;
+
+    >img {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+    }
+  }
+
+  .user_name {
+
+    margin: 0.7rem  0;
+    p {
+      margin: 0.2rem 0 ;
+    }
+    div {
+      color: #ddd;
+    }
+  }
+
+  .follow {
+    padding: 0.5rem  0rem;
+    height: 1rem;
+    line-height: 1rem;
+    background: #24c789;
+    color: #fff;
+    border-radius: 3rem;
+    font-size: 0.3rem;
+  }
+
+}
